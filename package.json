@@ -1,0 +1,12 @@
+{
+  "name": "graphQl-apollo-studying",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/matheuscasavechia/graphQl-apollo-studying.git",
+  "author": "casavechia <mc@lionx.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^3.5.0",
+    "graphql": "^16.2.0"
+  }
+}
