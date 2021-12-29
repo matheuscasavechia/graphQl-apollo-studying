@@ -1,18 +1,6 @@
-const users = () => {
-  return [
-    {
-      id: '1',
-      userName: 'Matheus Casavechia',
-    },
-    {
-      id: '2',
-      userName: 'Raphaela Casavechia',
-    },
-    {
-      id: '3',
-      userName: 'Maria',
-    },
-  ];
+const users = async (_: any, __: any, { fetch }: any) => {
+  const users = await fetch('http://localhost:3000/users');
+  return users.json();
 };
 
 const user = () => {
